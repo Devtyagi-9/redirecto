@@ -1,0 +1,24 @@
+{
+  "name": "redirecto",
+  "version": "1.0.0",
+  "description": "URL shortener",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devtyagi-9/redirecto.git"
+  },
+  "author": "Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Devtyagi-9/redirecto/issues"
+  },
+  "homepage": "https://github.com/Devtyagi-9/redirecto#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "env": "0.0.2",
+    "express": "^4.21.0"
+  }
+}
