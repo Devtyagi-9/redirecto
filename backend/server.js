@@ -13,9 +13,9 @@ app.use(express.json())
 const URLRoutes = require("./routes/url")
 app.use("/url", URLRoutes);
 
-// app.get("/" , (req, res) => {
-//   res.send("Working")
-// })
+app.get("/" , (req, res) => {
+  res.send("Working")
+})
 
 app.listen(PORT, ()=> {
   console.log("Server listening on PORT: ", PORT);
